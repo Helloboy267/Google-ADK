@@ -1,8 +1,10 @@
-print("🌟 Starting Aura FastAPI agent... inside Cloud Run.")
+# main.py
 
 from fastapi import FastAPI, Request
 from agent import AdvancedOrchestratorAgent
 from google.adk.types import ToolContext
+
+print("🌟 Starting Aura FastAPI agent... inside Cloud Run.")
 
 app = FastAPI()
 orchestrator = AdvancedOrchestratorAgent()
