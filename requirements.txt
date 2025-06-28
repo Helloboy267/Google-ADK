@@ -4,6 +4,7 @@ google-auth-httplib2
 google-auth-oauthlib
 pytest
 requests
-git+https://${GITHUB_TOKEN}@github.com/google/agent-development-kit.git
+git+https://github.com/google/agent-development-kit.git
+
 
 
